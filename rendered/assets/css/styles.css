@@ -1,0 +1,20 @@
+.tbborder {
+  border: 1px;
+}
+
+.fontstyle {
+    font-family: 'AmazonEmber';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 21px;
+}
+
+
+.center__relative {
+  position: relative;
+  left: 80%;
+}
+
+.item_border{
+  border-right:1px solid black ;
+}

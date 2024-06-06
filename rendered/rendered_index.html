@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html data-bs-theme="light" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>amazon_invoice</title>
+    <link rel="preload" href="AmazonEmber-Regular.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body style="font-family: AmazonEmber; font-size: 20px;">
+    <div class="container" style="width: 1230px;">
+        <section style="margin: 8px;width: auto;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6" style="margin-left: -12px;"><img src="assets/img/amazon_logo_real.png" style="width: 200px;height: 70px;margin: 0px;margin-top: -1px;" width="60" height="60"></div>
+                    <div class="col-md-6 text-end">
+                        <p><strong>Tax Invoice/Bill of Supply/Cash Memo</strong></p>
+                        <p>(Original for Recipient)</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section style="margin: 8px;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <p><strong>Sold By :</strong><br>seller_name<br>Seller_Add</p>
+                        <p style="height: 48px;"><strong><span style="color: rgb(0, 0, 0);">PAN No:</span></strong><span style="color: rgb(0, 0, 0);"> pan_no&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span><br><strong><span style="color: rgb(0, 0, 0);">Registration No.</span></strong><span style="color: rgb(0, 0, 0);"> gst</span><br><br><br><span style="color: rgb(0, 0, 0);">&nbsp;&nbsp;</span></p>
+                    </div>
+                    <div class="col-md-6 text-end">
+                        <p style="margin-bottom: 1px;"><strong>Billing Address:</strong></p>
+                        <p style="margin-bottom: 1px;">biller_name</p>
+                        <p style="margin-bottom: 1px;">Billing_Add1</p>
+                        <p style="margin-bottom: 1px;">Billing_Add2</p>
+                        <p style="margin-bottom: 1px;">Billing_Add3</p>
+                        <p style="margin-bottom: 1px;"><strong>State/UT Code</strong>: bill_state_code</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section style="margin: 8px;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6"></div>
+                    <div class="col-md-6 text-end">
+                        <p style="margin-bottom: 1px;margin-top: 8px;"><strong>Shipping Address:</strong></p>
+                        <p style="margin-bottom: 2px;">seller_name</p>
+                        <p style="margin-bottom: 2px;">Shipping_Add1</p>
+                        <p style="margin-bottom: 2px;">Shipping_Add2</p>
+                        <p style="margin-bottom: 2px;">Shipping_Add3</p>
+                        <p style="margin-bottom: 2px;">IN</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section style="margin: 8px;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6"></div>
+                    <div class="col-md-6 text-end">
+                        <p style="margin-bottom: 2px;"><strong>State/UT Code: </strong>ship_state_code</p>
+                        <p style="margin-bottom: 2px;"><strong>Place of supply:</strong> KARNATAKA </p>
+                        <p style="margin-bottom: 2px;"><strong>Place of delivery: </strong>KARNATAKA</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section style="margin: 8px;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6" style="border-width: 1px;">
+                        <p style="height: 50px;"><strong>Order Number</strong>: order_no<br><strong>Order Date</strong>- order_date<br><br><br></p>
+                    </div>
+                    <div class="col-md-6 text-end">
+                        <p><strong>Shipping Address:</strong></p>
+                        <p style="margin-bottom: 2px;"><strong>Invoice Number : </strong>invoice_no</p>
+                        <p style="margin-bottom: 2px;"><strong>Invoice Detail : </strong>invoice_details</p>
+                        <p style="margin-bottom: 2px;"><strong>Invoice Date </strong>: invoice_data</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section style="margin: 0px;margin-top: 24px;border-width: 2px;border-style: solid;margin-bottom: 0px;">
+            <div class="table-responsive">
+                <table class="table">
+                    <thead>
+                        <tr style="border: 0px none var(--bs-table-color) ;border-right-width: 1px;border-right-style: solid;">
+                            <th class="item_border d-flex flex-row" style="background: grey;">SI NO</th>
+                            <th class="item_border" style="background: grey;">Description<br><br></th>
+                            <th class="item_border" style="background: grey;">Unit Price</th>
+                            <th class="item_border" style="background: grey;">Qty<br><br></th>
+                            <th class="item_border" style="background: grey;">Net Amount</th>
+                            <th class="item_border" style="background: grey;">Tax Rate</th>
+                            <th class="item_border" style="background: grey;">Tax Type</th>
+                            <th class="item_border" style="background: grey;">Tax Amount&nbsp;</th>
+                            <th class="item_border" style="background: grey;">Total Amount&nbsp;</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="item_border">1</td>
+                            <td class="item_border">description of items<br><br>Shipping Charge&nbsp;</td>
+                            <td class="item_border">12&nbsp;<br><br><br>₹38.40</td>
+                            <td class="item_border">1</td>
+                            <td class="item_border" >555</td>
+                            <td class="item_border">2.5%<br>2.5%<br>2.5%<br>2.5%</td>
+                            <td class="item_border">CGST<br>SGST<br>CGST<br>SGST</td>
+                            <td class="item_border">₹13.45<br>₹13.45<br>₹0.77<br>₹0.77</td>
+                            <td class="item_border">₹565.00<br><br><br>₹32.50</td>
+                        </tr>
+                        <tr class="tbborder">
+                            <td class="item_border">2</td>
+                            <td class="item_border">description of items<br><br>Shipping Charge&nbsp;</td>
+                            <td class="item_border">12&nbsp;<br><br><br>₹38.40</td>
+                            <td class="item_border">1</td>
+                            <td class="item_border">555</td>
+                            <td class="item_border">2.5%<br>2.5%<br>2.5%<br>2.5%</td>
+                            <td class="item_border">CGST<br>SGST<br>CGST<br>SGST</td>
+                            <td class="item_border">₹13.45<br>₹13.45<br>₹0.77<br>₹0.77</td>
+                            <td class="item_border">₹565.00<br><br><br>₹32.50</td>
+                        </tr>
+                        <tr class="tbborder" style="border-style: none;border-bottom-style: none;">
+                            <td style="border-bottom-style: none;">Total</td>
+                            <td style="border-bottom-style: none;"></td>
+                            <td style="border-bottom-style: none;"></td>
+                            <td style="border-bottom-style: none;"></td>
+                            <td style="border-bottom-style: none;"></td>
+                            <td style="border-bottom-style: none;"></td>
+                            <td style="border-bottom-style: none;"></td>
+                            <td style="border-bottom-style: none;">₹56.88</td>
+                            <td style="border-bottom-style: none;">₹1195.00</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+        <section style="margin-top: 0px;">
+            <div id="payword" style="border-width: 2px;border-style: solid;">
+                <div>
+                    <p style="margin-bottom: 0px;"><strong>Amount in Words:</strong></p>
+                </div>
+                <div>
+                    <p style="margin-bottom: 0px;"><strong>One Thousand and One Hundred and Ninety Five:</strong></p>
+                </div>
+            </div>
+            <div id="signature" style="border-right-width: 2px;border-right-style: solid;border-bottom-width: 2px;border-bottom-style: solid;border-left-width: 2px;border-left-style: solid;">
+                <div></div>
+                <div class="center__relative">
+                    <p><strong>For Varasiddhi Silk Exports:</strong></p><img src="assets/img/fake_sign.jpg" style="margin: 0px;height: 50px;">
+                    <p><strong>Authorized Signatory</strong></p>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>
